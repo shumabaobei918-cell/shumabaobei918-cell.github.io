@@ -54,7 +54,8 @@ noButton.addEventListener("click", function () {
   if (clickCount === 2) mainImage.src = "images/think.png"; // 思考
   if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
   if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
+  if (clickCount === 5) mainImage.src = "images/OoSPGd1ei6xDZ4g.gif";
+  if (clickCount >= 6) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
@@ -78,4 +79,5 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
