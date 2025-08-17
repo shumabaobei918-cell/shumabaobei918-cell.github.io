@@ -55,7 +55,7 @@ noButton.addEventListener("click", function () {
   if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
   if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
   if (clickCount === 5) mainImage.src = "images/OoSPGd1ei6xDZ4g.gif";
-  if (clickCount >= 6) mainImage.src = "images/crying.png"; // 之后一直是哭
+  if (clickCount >= 6) mainImage.src = "images/ad766b52304b12988fb15cbd30f3384d2910013b1c660-UuTotD_fw480.webp"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
@@ -79,6 +79,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
