@@ -51,7 +51,7 @@ noButton.addEventListener("click", function () {
 
   // 图片变化（前 5 次变化）
   if (clickCount === 1) mainImage.src = "images/maomisorry.jpg"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/think.png"; // 思考
+  if (clickCount === 2) mainImage.src = "images/baituo.jpg"; // 思考
   if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
   if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
   if (clickCount === 5) mainImage.src = "images/OoSPGd1ei6xDZ4g.gif";
@@ -79,6 +79,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
