@@ -24,6 +24,7 @@ const noTexts = [
   "不要选这个嘛QwQ！ ",
   "我会很伤心o(╥﹏╥)o…",
   "不行嘛不行QWQ:(",
+  "再考虑考虑宝宝QWQ",
 ];
 
 // No 按钮点击事件
@@ -44,7 +45,7 @@ noButton.addEventListener("click", function () {
   questionText.style.transform = `translateY(-${moveUp}px)`;
 
   // No 文案变化（前 5 次变化）
-  if (clickCount <= 5) {
+  if (clickCount <= 6) {
     noButton.innerText = noTexts[clickCount - 1];
   }
 
@@ -77,3 +78,4 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
