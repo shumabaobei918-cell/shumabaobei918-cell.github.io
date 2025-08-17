@@ -59,7 +59,7 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!你最好了最喜欢最爱你了!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `!!!我是大坏蛋o(╥﹏╥)o你最好了最喜欢最爱你了对不起然后谢谢最好的宝宝o(╥﹏╥)o!! ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
@@ -79,6 +79,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
