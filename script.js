@@ -53,7 +53,7 @@ noButton.addEventListener("click", function () {
   if (clickCount === 1) mainImage.src = "images/shuairen.gif"; // 震惊
   if (clickCount === 2) mainImage.src = "images/maomidaren.gif"; // 思考
   if (clickCount === 3) mainImage.src = "images/nagunzida.jpg"; // 生气
-  if (clickCount === 4) mainImage.src = "images/zaiyebuganle.jpg"; // 哭
+  if (clickCount === 4) mainImage.src = "images/huocairendaren.gif"; // 哭
   if (clickCount === 5) mainImage.src = "images/OoSPGd1ei6xDZ4g.gif";//酷
   if (clickCount >= 6) mainImage.src = "images/ad766b52304b12988fb15cbd30f3384d2910013b1c660-UuTotD_fw480.webp"; // 之后一直是哭
 });
@@ -79,6 +79,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
