@@ -22,9 +22,9 @@ const noTexts = [
   "呵呵就是大坏蛋^_^…",
   "坏到一定程度了^_^",
   "我要打爆这个大坏蛋^_^ ",
-  "这种坏蛋我见一个打一个",
+  "这种坏蛋我要暴揍",
   "想揍死这个大坏蛋^_^:(",
-  "我要把这个坏蛋干死揍死抽死",
+  "我要干死揍死抽死她",
 ];
 
 // No 按钮点击事件
@@ -80,6 +80,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
