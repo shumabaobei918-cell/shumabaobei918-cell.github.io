@@ -69,7 +69,7 @@ yesButton.addEventListener("click", function () {
   document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text"></h1>
-            <img src="images/hug.png" alt="拥抱" class="yes-image">
+            <img src="images/guiliulian.png" alt="跪下" class="yes-image">
         </div>
     `;
 
@@ -80,6 +80,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
