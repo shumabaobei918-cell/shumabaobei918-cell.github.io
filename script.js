@@ -46,7 +46,7 @@ noButton.addEventListener("click", function () {
   questionText.style.transform = `translateY(-${moveUp}px)`;
 
   // No 文案变化（前 5 次变化）
-  if (clickCount <= 6) {
+  if (clickCount <= 7) {
     noButton.innerText = noTexts[clickCount - 1];
   }
 
@@ -83,6 +83,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
