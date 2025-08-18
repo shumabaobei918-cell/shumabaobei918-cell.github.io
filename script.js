@@ -51,17 +51,18 @@ noButton.addEventListener("click", function () {
   }
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) mainImage.src = "images/shuairen.gif"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/maomidaren.gif"; // 思考
-  if (clickCount === 3) mainImage.src = "images/nagunzida.jpg"; // 生气
-  if (clickCount === 4) mainImage.src = "images/huocairendaren.gif"; // 哭
-  if (clickCount === 5) mainImage.src = "images/tiren.gif";//酷
-  if (clickCount === 6) mainImage.src = "images/qiaota.gif"; // 是哭
-  if (clickCount >= 7) mainImage.src = "images/xiaoxiongdaren.gif"; // 小熊
+  if (clickCount === 1) mainImage.src = "images/zousini.gif"; // 很气
+  if (clickCount === 2) mainImage.src = "images/shuairen.gif"; // 震惊
+  if (clickCount === 3) mainImage.src = "images/maomidaren.gif"; // 思考
+  if (clickCount === 4) mainImage.src = "images/nagunzida.jpg"; // 生气
+  if (clickCount === 5) mainImage.src = "images/huocairendaren.gif"; // 哭
+  if (clickCount === 6) mainImage.src = "images/tiren.gif";//酷
+  if (clickCount === 7) mainImage.src = "images/qiaota.gif"; // 是哭
+  if (clickCount >= 8) mainImage.src = "images/xiaoxiongdaren.gif"; // 小熊
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!我对宝宝一点都不好 林晨欣就是超级无敌大坏蛋欠揍欠干欠打ps坏蛋改邪归正求原谅QwQ!! (QWQ)♡︎ᐝ  ${
+const loveTest = `!!!我对宝宝一点都不好 林晨欣就是个超级无敌大坏蛋欠揍欠干欠打欠收拾欠抽的最无敌坏的坏蛋(╬◣д◢)ps坏蛋改邪归正求原谅QwQ!! (QWQ)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(QWQ )` : ""
 }`;
 
@@ -82,6 +83,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
