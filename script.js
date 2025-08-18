@@ -55,12 +55,13 @@ noButton.addEventListener("click", function () {
   if (clickCount === 3) mainImage.src = "images/nagunzida.jpg"; // 生气
   if (clickCount === 4) mainImage.src = "images/huocairendaren.gif"; // 哭
   if (clickCount === 5) mainImage.src = "images/tiren.gif";//酷
-  if (clickCount >= 6) mainImage.src = "images/qiaota.gif"; // 是哭
+  if (clickCount === 6) mainImage.src = "images/qiaota.gif"; // 是哭
+  if (clickCount >= 7) mainImage.src = "images/xiaoxiongdaren.gif"; // 小熊
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!我是大坏蛋o(╥﹏╥)o你最好了最喜欢最爱你了对不起然后谢谢最好的宝宝o(╥﹏╥)o!! ( >᎑<)♡︎ᐝ  ${
-  username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
+const loveTest = `!!!我对宝宝一点也不好QwQ林晨欣就是最可恶最坏的大坏蛋要被抽死干死揍死ps坏蛋改邪归正请求原谅QwQ!! (╬◣д◢)  ${
+  username ? `${safeUsername}  (◣д◢╬) : ""
 }`;
 
 yesButton.addEventListener("click", function () {
@@ -79,6 +80,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
