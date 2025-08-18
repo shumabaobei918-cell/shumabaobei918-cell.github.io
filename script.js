@@ -73,6 +73,7 @@ yesButton.addEventListener("click", function () {
             <h1 class="yes-text"></h1>
             <img src="images/guiliulian.png" alt="跪下" class="yes-image">
             <img src="images/xiagui.png" alt="跪吧" class="yes-image">
+            <img src="images/xiaoxiongdaren.gif" alt="熊猫" class="yes-image">
         </div>
     `;
 
@@ -83,6 +84,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
