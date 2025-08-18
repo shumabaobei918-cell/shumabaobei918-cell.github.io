@@ -60,8 +60,8 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!我对宝宝一点也不好QwQ林晨欣就是最可恶最坏的大坏蛋要被抽死干死揍死ps坏蛋改邪归正请求原谅QwQ!! (╬◣д◢)  ${
-  username ? `${safeUsername}  (◣д◢╬) : ""
+const loveTest = `!!!我对宝宝一点都不好 林晨欣就是超级无敌大坏蛋欠揍欠干欠打ps坏蛋改邪归正求原谅QwQ!! (QWQ)♡︎ᐝ  ${
+  username ? `${safeUsername}  ♡︎ᐝ(QWQ )` : ""
 }`;
 
 yesButton.addEventListener("click", function () {
@@ -80,6 +80,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
