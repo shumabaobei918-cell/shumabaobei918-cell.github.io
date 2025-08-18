@@ -19,12 +19,12 @@ let clickCount = 0; // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-  "真的不可以吗qwq…",
-  "要不再想想？",
-  "不要选这个嘛QwQ！ ",
-  "我会很伤心o(╥﹏╥)o…",
-  "不行嘛不行QWQ:(",
-  "再考虑考虑宝宝QWQ",
+  "呵呵就是大坏蛋^_^…",
+  "坏到一定程度了^_^",
+  "我要打爆这个大坏蛋^_^ ",
+  "这种坏蛋我见一个打一个",
+  "想揍死这个大坏蛋^_^:(",
+  "我要把这个坏蛋干死揍死抽死",
 ];
 
 // No 按钮点击事件
@@ -52,9 +52,9 @@ noButton.addEventListener("click", function () {
   // 图片变化（前 5 次变化）
   if (clickCount === 1) mainImage.src = "images/shuairen.gif"; // 震惊
   if (clickCount === 2) mainImage.src = "images/maomidaren.gif"; // 思考
-  if (clickCount === 3) mainImage.src = "images/wcuole.gif"; // 生气
+  if (clickCount === 3) mainImage.src = "images/nagunzida.jpg"; // 生气
   if (clickCount === 4) mainImage.src = "images/zaiyebuganle.jpg"; // 哭
-  if (clickCount === 5) mainImage.src = "images/OoSPGd1ei6xDZ4g.gif";
+  if (clickCount === 5) mainImage.src = "images/OoSPGd1ei6xDZ4g.gif";//酷
   if (clickCount >= 6) mainImage.src = "images/ad766b52304b12988fb15cbd30f3384d2910013b1c660-UuTotD_fw480.webp"; // 之后一直是哭
 });
 
@@ -79,6 +79,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
