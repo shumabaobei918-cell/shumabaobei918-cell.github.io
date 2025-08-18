@@ -20,11 +20,12 @@ let clickCount = 0; // 记录点击 No 的次数
 // No 按钮的文字变化
 const noTexts = [
   "呵呵就是大坏蛋^_^…",
+  "没见过这么坏的^_^",
   "坏到一定程度了^_^",
   "我要打爆这个大坏蛋^_^ ",
-  "这种坏蛋我要暴揍",
-  "想揍死这个大坏蛋^_^:(",
-  "我要干死揍死抽死她",
+  "这种坏蛋我要暴揍死她^_^",
+  "揍死这个大坏蛋^_^:(",
+  "我要干死揍死抽死她^_^",
 ];
 
 // No 按钮点击事件
@@ -81,6 +82,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
